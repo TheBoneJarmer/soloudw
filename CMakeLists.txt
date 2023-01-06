@@ -7,4 +7,4 @@ set(SOURCES src/dr_impl.cpp src/soloud.cpp src/soloud_audiosource.cpp src/soloud
 
 add_compile_definitions(WITH_MINIAUDIO)
 add_library(soloudw SHARED ${SOURCES})
-target_include_directories(soloudw PRIVATE include)
+target_include_directories(soloudw PRIVATE include/soloudw)
