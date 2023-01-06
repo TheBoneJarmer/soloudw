@@ -1,6 +1,4 @@
 #!/bin/bash
 
-rm -rf build 2> /dev/null
-mkdir build
-cd build
-cmake ..
+rm -r ./build 2> /dev/null
+rm -r ./lib 2> /dev/null
